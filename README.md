@@ -5,7 +5,16 @@ In this project we can find weather reports such as temperature, humidity, press
 
 
 
-![Uploading image.png…]()
-      pip install pytz 
-  pip install geopy
-  pip install timezonefinder
+# Installation
+
+
+  ip install timezonefinder
+```
+    pip install pytz 
+```
+```
+    pip install geopy
+```
+```
+    pip install timezonefinder 
+```
