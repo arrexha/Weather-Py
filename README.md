@@ -8,7 +8,6 @@ In this project we can find weather reports such as temperature, humidity, press
 # Installation
 
 
-  ip install timezonefinder
 ```
     pip install pytz 
 ```
