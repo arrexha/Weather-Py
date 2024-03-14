@@ -30,7 +30,7 @@ def getWeather():
    
 
 #weather
-        api = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=37515154dff8a8cceca6bededb460b83"
+        api="https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=37515154dff8a8cceca6bededb460b83"
 
         json_data = requests.get(api).json()
         condition = json_data['weather'][0]['main']
@@ -114,19 +114,6 @@ d=Label(text="...",font=("arial",20,"bold"),bg="#1ab5ed")
 d.place(x=450,y=430)
 p=Label(text="...",font=("arial",20,"bold"),bg="#1ab5ed")
 p.place(x=670,y=430)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 root.mainloop()
