@@ -14,6 +14,7 @@ root.resizable(False,False)
 
 def getWeather():
     try:
+    
         city=textfiled.get()
 
         geolocator=Nominatim(user_agent="geoapiExercises")
@@ -50,7 +51,6 @@ def getWeather():
 
     except Exception as e:
         messagebox.showerror("Weather App","Invalide Entry!!!")
-
 
 
 
