@@ -9,11 +9,11 @@ In this project we can find weather reports such as temperature, humidity, press
 
 
 ```
-    pip install pytz 
+pip install pytz 
 ```
 ```
-    pip install geopy
+pip install geopy
 ```
 ```
-    pip install timezonefinder 
+pip install timezonefinder 
 ```
