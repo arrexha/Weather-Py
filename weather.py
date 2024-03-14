@@ -6,6 +6,7 @@ from timezonefinder import TimezoneFinder
 from datetime import datetime
 import requests
 import pytz
+import time
 
 root=Tk()
 root.title("Weather App")
@@ -17,7 +18,7 @@ def getWeather():
     
         city=textfiled.get()
 
-        geolocator=Nominatim(user_agent="geoapiExercises")
+        geolocator=Nominatim(user_agent="weather")
         location=geolocator.geocode(city)
         obj = TimezoneFinder()
         result = obj.timezone_at(lng=location.longitude,lat=location.latitude)
@@ -29,11 +30,11 @@ def getWeather():
         name.config(text="CURRENT WEATHER")
 
    
-
+  
 #weather
         api="https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=37515154dff8a8cceca6bededb460b83"
 
-        json_data = requests.get(api).json()
+        json_data = requests.get(api, verify=True).json()
         condition = json_data['weather'][0]['main']
         description = json_data['weather'][0]['description']
         temp = int(json_data['main']['temp']-273.15)
@@ -50,6 +51,7 @@ def getWeather():
         p.config(text=pressure)
 
     except Exception as e:
+        print(e)
         messagebox.showerror("Weather App","Invalide Entry!!!")
 
 
