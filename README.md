@@ -1,8 +1,8 @@
 # Weather_app
 
-Weather Py është një aplikacion  që merr informacionin e motit nga një API dhe e shfaq atë duke përdorur GUI të Tkinder.
+Weather Py is an application that retrieves weather information from an API and displays it using Tkinder's GUI.
 
-Duke përdorur OpenWeatherMap API, WeatherPy merr të dhëna të sakta të motit për vendndodhjen e specifikuar, duke përfshirë kushtet aktuale, temperaturën, lagështinë, shpejtësinë e erës dhe presionin.
+Using the OpenWeatherMap API, WeatherPy retrieves accurate weather data for the specified location, including current conditions, temperature, humidity, wind speed, and pressure.
 
 
 
