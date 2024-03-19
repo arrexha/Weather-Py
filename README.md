@@ -1,6 +1,8 @@
 # Weather_app
 
-In this project we can find weather reports such as temperature, humidity, pressure, wind speed and description etc. of any country in the world. You must provide the name of a country. Not only this you will also get the current time of that country
+Weather Py është një aplikacion  që merr informacionin e motit nga një API dhe e shfaq atë duke përdorur GUI të Tkinder.
+
+Duke përdorur OpenWeatherMap API, WeatherPy merr të dhëna të sakta të motit për vendndodhjen e specifikuar, duke përfshirë kushtet aktuale, temperaturën, lagështinë, shpejtësinë e erës dhe presionin.
 
 
 
