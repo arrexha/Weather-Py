@@ -1,4 +1,4 @@
-# Weather_app
+# Weather Py
 
 Weather Py is an application that retrieves weather information from an API and displays it using Tkinder's GUI.
 
