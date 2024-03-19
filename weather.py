@@ -6,7 +6,6 @@ from timezonefinder import TimezoneFinder
 from datetime import datetime
 import requests
 import pytz
-import time
 
 root=Tk()
 root.title("Weather App")
@@ -98,9 +97,10 @@ labe2.place(x=250,y=400)
 labe3=Label(root,text="DESCRIPTION",font=("Helvetica",15,'bold'),fg="white",bg="#1ab5ef")
 labe3.place(x=430,y=400)
 
-
 labe4=Label(root,text="PRESSURE",font=("Helvetica",15,'bold'),fg="white",bg="#1ab5ef")
 labe4.place(x=650,y=400)
+
+
 
 t=Label(font=("arial",70,"bold"),fg="#ee666d")
 t.place(x=400,y=150)
